@@ -1,10 +1,5 @@
-# blood-cell-recognition
-project for 523
-I didn't add the TRAIN and TEST floder to this repo as they are pretty large.
-In version 2.0 I added: 
-  * preparing jobs
-  * part I -- processing data
-  * part II -- get data:
-    * X is the input grayscale images 
-    * y is the encoded labels (hot vectors (ex : 2 -> [0,0,1,0,0,0,0,0,0,0])) 5 classes 4+1
-    * z is also encoded lables
+# Blood Cell Recognition
+This repo shows an image classification task on the blood cell samples, which achieves 87% accuracy on test images. The project was developed with @Sukeysun. We built convolutional neural networks with the help of Keras. Here you will see a simple but classical machine learning workflow in Python.
+
+**Credit**: The dataset is from [Kaggle](https://www.kaggle.com/paultimothymooney/blood-cells).
+
